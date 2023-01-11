@@ -1,0 +1,13 @@
+# set configuration
+
+# default: dev config, one province, baseline scenario
+# R_CONFIG_ACTIVE="default"
+
+# check-fit: inital run for all 6 pts, baseline, small ensemble
+# R_CONFIG_ACTIVE="check-fit"
+
+# wem-comparison: all 6 pts, just baseline scenario, moderate sized-ensemble, longer forecast time horizon
+# R_CONFIG_ACTIVE="wem-comparison"
+
+# production: all 6 provinces, baseline, large ensemble
+R_CONFIG_ACTIVE="production"
